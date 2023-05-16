@@ -22,7 +22,7 @@ function validateForm() {
 
 formEl.addEventListener('submit', () => {
     if(validateForm()) {
-        window.location.href="https://www.youtube.com/watch?v=C2YCs52XLjs"
+        window.open("https://www.youtube.com/watch?v=C2YCs52XLjs")
 }   else {
         console.log('failed')
 }}
