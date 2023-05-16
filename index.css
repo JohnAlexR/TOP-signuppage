@@ -141,8 +141,10 @@ button:active {
 
 .links {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 20px;
+    padding: 20px;
 }
 
 @media (min-width: 768px) {
