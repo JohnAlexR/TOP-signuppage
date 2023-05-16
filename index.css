@@ -61,6 +61,11 @@ main {
     height: 100px;
 }
 
+.thank-you {
+    text-align: center;
+    color: whitesmoke;
+}
+
 .error {
     color: red;
     font-size: 12px;
