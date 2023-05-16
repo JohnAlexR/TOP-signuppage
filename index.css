@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Avatar;
+    src: url('/Fonts/TorukscRegular-z8MA1.ttf');
+}
+
+@font-face {
+    font-family: Julee;
+    src: url('/Fonts/Julee-Regular.ttf');
+}
+:root {
+    font-family: Julee, sans-serif;
+}
+
+body {
+    background-color: rgb(11, 37, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3, button {
+    font-family: Avatar, sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+
+}
+
+main {
+    display: inline-flex;
+    border: 3px solid grey;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.right {
+    background-color: #f9fafb;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+.icon-bar {
+    position: absolute;
+    display: flex;
+    background-color: rgb(180, 189, 197);
+    align-items: center;
+    top: 250px;
+
+}
+
+.header {
+    padding: 10px;
+}
+
+.icon {
+    height: 100px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.img {
+    position: relative;
+    display: inline-flex;
+}
+
+img {
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+
+.form-section {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 2px #dddedf;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input {
+    width: 150px;
+    border: 1px solid rgb(199, 199, 211);
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: Julee, sans-serif;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.input:focus {
+    box-shadow: 2px 1px 3px grey;
+}
+
+button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
